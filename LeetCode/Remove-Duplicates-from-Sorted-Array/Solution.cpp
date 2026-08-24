@@ -5,7 +5,7 @@
 5        
 6        int k = 1; 
 7        for (int i = 1; i < nums.size(); i++) {
-8            if (nums[i] != nums[i - 1]) {
+8            if (nums[i] != nums[i-1]) {
 9                nums[k] = nums[i];
 10                k++;
 11            }
